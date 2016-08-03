@@ -85,6 +85,8 @@ choice. There is no "one way" to solve a problem, no "right" way. Different
 algorithms are better in different contexts, or with different constraints. It's
 up to you to consider the options and pick the one that best meets your needs.
 
+[Sorting Algorithms Visualized](https://www.toptal.com/developers/sorting-algorithms)
+
 ### We do: Bubble Sort
 
 Visualize bubble sort with 10 volunteers.
@@ -203,6 +205,17 @@ Determine the time-complexity of the divide-and-conquer number guessing
 algorithm. Guessing and checking is OK! Work with a partner to try the algorithm
 out for numbers between one and ten, as well as numbers between one and
 one-hundred.
+
+### Lab: Tower of Hanoi
+
+View https://www.mathsisfun.com/games/towerofhanoi.html
+
+Create an algorithm in english for solving the problem. And think about the following questions:
+
+1. What is the complexity of your algorithm?
+1. What is the smallest number of moves required to solve the problem with 3 disks?
+1. And with 4 disks?
+1. Can you think of a way to compute the minimum number of moves given n disks?
 
 ## Additional Resources
 
