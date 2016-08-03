@@ -96,6 +96,9 @@ Work with a partner to read the
 implementations of quick sort. One of you will be asked to explain quick sort
 in your own words.
 
+### We do: Visualize quick sort
+
+
 ## Big-O (Asymptotic Analysis)
 
 We use "Big-O" notation to describe an algorithm's complexity. Complexity
@@ -142,9 +145,9 @@ straight line, hence we say that the procedures scale linearly.
 
 Study the [Big-O
 table](http://www.daveperrett.com/articles/2010/12/07/comp-sci-101-big-o-notation/)
-to become familiar with these scaling functions, and compare the table to the
-[running time
-graph](http://science.slc.edu/~jmarshall/courses/2002/spring/cs50/BigO/).
+to become familiar with these scaling functions, and try the exercises at the end.
+
+compare the table to the [running time graph](http://science.slc.edu/~jmarshall/courses/2002/spring/cs50/BigO/).
 
 ## Predicting Complexity
 
@@ -176,9 +179,9 @@ worst, ten guesses:
 The algorithm that gets you there in three guess is called "binary search". It
 goes like this:
 
-> 1.  Divide the range in half. Guess the number in the middle. If you win,
->     great!
-> 1.  If not, the answer is either in the upper half-range or lower half-range.
+> 1.  Divide the range in half. Ask: is the number in the middle <= your number?
+> 1.  If so, the answer is in the lower half-range
+> 1.  If not, the answer is in the upper half-range
 > 1.  Divide the upper or lower half-range in half, and guess the middle. Repeat
 >     until done.
 
@@ -197,6 +200,7 @@ one-hundred.
 
 ## Additional Resources
 
+-   [Data Structures](https://github.com/ga-wdi-lessons/cs-data-structures)
 -   [Big-O Algorithm Complexity Cheat Sheet](http://bigocheatsheet.com/)
 -   [Sorting Algorithm Animations](http://www.sorting-algorithms.com/)
 -   [A Beginner’s Guide to Big O Notation « Rob Bell](http://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
