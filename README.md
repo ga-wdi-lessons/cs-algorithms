@@ -34,11 +34,6 @@ By the end of this, developers should be able to:
 -   Give an example of a divide-and-conquer algorithm
 -   Predict the time-complexity of a given algorithm
 
-## Preparation
-
-1.  [Fork and clone](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone)
-    this repository.
-
 ## Algorithms
 
 > algorithm (n.) - a process or set of rules to be followed to attain a goal
@@ -61,17 +56,12 @@ a sandwich?
 If Robin needed to make sandwiches for all of us, how would he do that? What's
 the "easy" or naïve way to obtain many sandwiches? What is a more effiecent way?
 
-### Lab: Outline an Algorithm
+### Lab: Sorting Cards
 
-Take a few minutes to describe your morning algorithm... uh, routine. Share it
-with a neighbor. How many steps are there? How do you save time if you're in a
-rush?
-
-### Follow Along: Sorting Cards
-
-I have a deck of unsorted playing cards. Describe in English an algorithm for
-sorting them. How would this algorithm change if my goal were not only to sort
-the deck, but to kill time while doing it?
+[You have a deck of unsorted playing cards](https://deck-of-cards.js.org/).
+Describe in English an algorithm for sorting them. How would this algorithm
+change if my goal were not only to sort the deck, but to kill time while doing
+it?
 
 ## Sorting
 
@@ -89,13 +79,22 @@ choice. There is no "one way" to solve a problem, no "right" way. Different
 algorithms are better in different contexts, or with different constraints. It's
 up to you to consider the options and pick the one that best meets your needs.
 
-### Lab: Research Quick Sort
+### We do: Bubble Sort
 
-Work with a partner to read the [pseudocode](http://rosettacode.org/wiki/Sorting_algorithms/Quicksort) and [ruby](http://rosettacode.org/wiki/Sorting_algorithms/Quicksort#Ruby) implementations of quick sort. One of you will be asked to explain quick sort in your own words.
+Visualize bubble sort with 10 volunteers.
 
-### Lab: Visualize an Algorithm
+Bubble sort repeatedly steps through the list to be sorted, compares each pair
+of adjacent items and swaps them if they are in the wrong order. The pass
+through the list is repeated until no swaps are needed, which indicates that
+the list is sorted.
 
-Visualize quick sort with six volunteers holding number cards.
+### You do: Research Quick Sort
+
+Work with a partner to read the
+[pseudocode](http://rosettacode.org/wiki/Sorting_algorithms/Quicksort) and
+[ruby](http://rosettacode.org/wiki/Sorting_algorithms/Quicksort#Ruby)
+implementations of quick sort. One of you will be asked to explain quick sort
+in your own words.
 
 ## Big-O (Asymptotic Analysis)
 
