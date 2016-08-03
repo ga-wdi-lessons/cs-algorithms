@@ -15,7 +15,7 @@ introductory computer science (CS). First, classic problems allow us to practice
 our problem solving skills; in fact, most of our lesson today can be completed
 without coding. Second, being familiar with the tradeoffs inherent in choosing
 an algorithm or a data structure have direct parallels in choices you make
-writing your application code. Lastly, ome of your colleagues will have CS
+writing your application code. Lastly, some of your colleagues will have CS
 degrees, and being able to understand the jargon and figures of speech they use
 will help you communicate with them. Perhaps most importantly, these colleagues
 will probably have a say in hiring you! Nearly every technical interview touches
@@ -33,11 +33,6 @@ By the end of this, developers should be able to:
 -   Identify what Big-O time-complexity measures
 -   Give an example of a divide-and-conquer algorithm
 -   Predict the time-complexity of a given algorithm
-
-## Preparation
-
-1.  [Fork and clone](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone)
-    this repository.
 
 ## Algorithms
 
@@ -67,11 +62,12 @@ Take a few minutes to describe your morning algorithm... uh, routine. Share it
 with a neighbor. How many steps are there? How do you save time if you're in a
 rush?
 
-### Follow Along: Sorting Cards
+### Lab: Sorting Cards
 
-I have a deck of unsorted playing cards. Describe in English an algorithm for
-sorting them. How would this algorithm change if my goal were not only to sort
-the deck, but to kill time while doing it?
+[You have a deck of unsorted playing cards](https://deck-of-cards.js.org/).
+Describe in English an algorithm for sorting them. How would this algorithm
+change if my goal were not only to sort the deck, but to kill time while doing
+it?
 
 ## Sorting
 
@@ -89,13 +85,27 @@ choice. There is no "one way" to solve a problem, no "right" way. Different
 algorithms are better in different contexts, or with different constraints. It's
 up to you to consider the options and pick the one that best meets your needs.
 
-### Lab: Research Quick Sort
+[Sorting Algorithms Visualized](https://www.toptal.com/developers/sorting-algorithms)
 
-Work with a partner to read the [pseudocode](http://rosettacode.org/wiki/Sorting_algorithms/Quicksort) and [ruby](http://rosettacode.org/wiki/Sorting_algorithms/Quicksort#Ruby) implementations of quick sort. One of you will be asked to explain quick sort in your own words.
+### We do: Bubble Sort
 
-### Lab: Visualize an Algorithm
+Visualize bubble sort with 10 volunteers.
 
-Visualize quick sort with six volunteers holding number cards.
+Bubble sort repeatedly steps through the list to be sorted, compares each pair
+of adjacent items and swaps them if they are in the wrong order. The pass
+through the list is repeated until no swaps are needed, which indicates that
+the list is sorted.
+
+### You do: Research Quick Sort
+
+Work with a partner to read the
+[pseudocode](http://rosettacode.org/wiki/Sorting_algorithms/Quicksort) and
+[ruby](http://rosettacode.org/wiki/Sorting_algorithms/Quicksort#Ruby)
+implementations of quick sort. One of you will be asked to explain quick sort
+in your own words.
+
+### We do: Visualize quick sort
+
 
 ## Big-O (Asymptotic Analysis)
 
@@ -143,9 +153,9 @@ straight line, hence we say that the procedures scale linearly.
 
 Study the [Big-O
 table](http://www.daveperrett.com/articles/2010/12/07/comp-sci-101-big-o-notation/)
-to become familiar with these scaling functions, and compare the table to the
-[running time
-graph](http://science.slc.edu/~jmarshall/courses/2002/spring/cs50/BigO/).
+to become familiar with these scaling functions, and try the exercises at the end.
+
+compare the table to the [running time graph](http://science.slc.edu/~jmarshall/courses/2002/spring/cs50/BigO/).
 
 ## Predicting Complexity
 
@@ -177,9 +187,9 @@ worst, ten guesses:
 The algorithm that gets you there in three guess is called "binary search". It
 goes like this:
 
-> 1.  Divide the range in half. Guess the number in the middle. If you win,
->     great!
-> 1.  If not, the answer is either in the upper half-range or lower half-range.
+> 1.  Divide the range in half. Ask: is the number in the middle <= your number?
+> 1.  If so, the answer is in the lower half-range
+> 1.  If not, the answer is in the upper half-range
 > 1.  Divide the upper or lower half-range in half, and guess the middle. Repeat
 >     until done.
 
@@ -196,8 +206,20 @@ algorithm. Guessing and checking is OK! Work with a partner to try the algorithm
 out for numbers between one and ten, as well as numbers between one and
 one-hundred.
 
+### Lab: Tower of Hanoi
+
+View https://www.mathsisfun.com/games/towerofhanoi.html
+
+Create an algorithm in english for solving the problem. And think about the following questions:
+
+1. What is the complexity of your algorithm?
+1. What is the smallest number of moves required to solve the problem with 3 disks?
+1. And with 4 disks?
+1. Can you think of a way to compute the minimum number of moves given n disks?
+
 ## Additional Resources
 
+-   [Data Structures](https://github.com/ga-wdi-lessons/cs-data-structures)
 -   [Big-O Algorithm Complexity Cheat Sheet](http://bigocheatsheet.com/)
 -   [Sorting Algorithm Animations](http://www.sorting-algorithms.com/)
 -   [A Beginner’s Guide to Big O Notation « Rob Bell](http://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
