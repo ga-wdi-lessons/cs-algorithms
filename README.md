@@ -56,6 +56,12 @@ a sandwich?
 If Robin needed to make sandwiches for all of us, how would he do that? What's
 the "easy" or naïve way to obtain many sandwiches? What is a more effiecent way?
 
+### Lab: Outline an Algorithm
+
+Take a few minutes to describe your morning algorithm... uh, routine. Share it
+with a neighbor. How many steps are there? How do you save time if you're in a
+rush?
+
 ### Lab: Sorting Cards
 
 [You have a deck of unsorted playing cards](https://deck-of-cards.js.org/).
