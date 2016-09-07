@@ -110,7 +110,10 @@ in your own words.
 
 ### We do: Visualize quick sort (10 min, 0:55)
 
-<!-- http://me.dt.in.th/page/Quicksort/ -->
+For this exercise we're going to have 8 people participating in the quicksort demonstration.
+
+Understanding quick sort can be tricky, so here is an excellent play by play:
+[Quicksort Play by Play](http://me.dt.in.th/page/Quicksort/)
 
 ## Break (10 min, 1:05)
 
