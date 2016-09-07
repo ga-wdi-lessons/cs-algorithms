@@ -20,7 +20,7 @@ Many think of  computer science as a necessary prerequisite to do anything progr
 
 What do you already know about computer science?
 
-Decades ago, it was absolutely necessary to have an understanding of computer science to do anything with a computer. In the beginning of consumer computing, home computers were essentially electronics projects for enthusiasts and hardcore hobbyists. The types of things you could do with a computer where very limited, and of interest to people with specific interests. Computers have come a long way since then, and are equipped with operating systems that attempt to make it as easy as possible for anyone to use a computer.
+Decades ago, it was absolutely necessary to have an understanding of computer science to do anything with a computer. In the beginning of consumer computing, home computers were essentially electronics projects for enthusiasts and hardcore hobbyists. The types of things you could do with a computer were very limited, and of interest to people with specific interests. Computers have come a long way since then, and are equipped with operating systems that attempt to make it as easy as possible for anyone to use a computer.
 
 Something similar is true for programming, namely that not knowing any computer science is no longer a barrier to entry.
 
@@ -121,7 +121,7 @@ Understanding quick sort can be tricky, so here is an excellent play by play:
 
 Big-O notation is simply a way of comparing the efficiency of algorithms. When we compare algorithms, we get the most meaningful comparisons when we compare "apples to apples": we wouldn't compare a sorting algorithm to an algorithm for summing the terms of an array. Comparisons become meaningful when we are comparing algorithms with respect to a given problem.
 
-It's not an exact metric for benchmarking algorithms, but rather giving us an abstract idea about how costly or efficient an algorithm is, with respect to how much computing power it takes. With Big-O notation we are comparing orders of magnitude, like with the Richter scale or pH scale.
+It's not an exact metric for benchmarking algorithms, but rather giving us an abstract idea about how costly or efficient an algorithm is, with respect to how much computing power it takes. With Big-O notation, we are comparing orders of magnitude, somewhat like with the Richter scale or pH scale.
 
 We use "Big-O" notation to describe an algorithm's complexity. Algorithmic complexity
 is measured by how much time and memory scale are used in processing input (represented by ***n***) of arbitrary size. We will focus on time-complexity rather than space-complexity (memory usage).
