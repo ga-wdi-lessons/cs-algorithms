@@ -83,6 +83,7 @@ list:
 -   Quick sort
 -   Merge sort
 -   Insertion sort
+-   Selection sort
 
 This illustrates something important about algorithms: you nearly always have a
 choice. There is no "one way" to solve a problem, no "right" way. Different
@@ -103,21 +104,21 @@ the list is sorted.
 ### You do: Research Quick Sort (5 min, 0:45)
 
 Work with a partner to read the
-[pseudocode](http://rosettacode.org/wiki/Sorting_algorithms/Quicksort) and
-[ruby](http://rosettacode.org/wiki/Sorting_algorithms/Quicksort#Ruby)
-implementations of quick sort. One of you will be asked to explain quick sort
+[pseudocode](http://rosettacode.org/wiki/Sorting_algorithms/Quicksort)
+for quick sort. One of you will be asked to explain quick sort
 in your own words.
 
-### We do: Visualize quick sort (10 min, 0:55)
-
-For this exercise we're going to have 8 people participating in the quicksort demonstration.
+### We do: Visualize quick sort (15 min, 1:00)
 
 Understanding quick sort can be tricky, so here is an excellent play by play:
-[Quicksort Play by Play](http://me.dt.in.th/page/Quicksort/)
+[Quicksort Play by Play](http://me.dt.in.th/page/Quicksort/). Spend 5 minutes going through this interactive.
 
-## Break (10 min, 1:05)
+Now, we're going to have 8 people participating in the quick sort demonstration.
 
-## Big-O Notation (Asymptotic Analysis) (15 min, 1:20)
+
+## Break (10 min, 1:10)
+
+## Big-O Notation (15 min, 1:20)
 
 Big-O notation is simply a way of comparing the efficiency of algorithms. When we compare algorithms, we get the most meaningful comparisons when we compare "apples to apples": we wouldn't compare a sorting algorithm to an algorithm for summing the terms of an array. Comparisons become meaningful when we are comparing algorithms with respect to a given problem.
 
@@ -169,9 +170,9 @@ straight line, hence we say that the procedures ***scale linearly***.
 
 Let's look at [this demo in javascript](index.html).
 
-### You do: Study Big-O Families (25 min, 1:45)
+### You do: Study Big-O Families (20 min, 1:45)
 
-Take 15 minutes to read through this article, and 5 minutes to do the exercises. We will then review the answers and discuss how we've arrived at them.
+Take 15 minutes to read through this article, and 5 minutes to do the exercises. Review the answers at the end of article. Skip the section of amortized analysis.
 
 The exercises will have you predict the complexity of a block of code. There are some rules of thumb earlier on in the article that will help you interpret what you are seeing. This will help you to become a `Sourceror`.
 
@@ -190,7 +191,6 @@ features to help us characterize it.
 -   Loops take linear time to complete (`O(n)`)
 -   Nested loops take quadratic time to complete (`O(n^2)`), or worse, cubic
     time (`O(n^3)`)
--   For consecutive statements, add the times-to-complete
 -   For branching statements (`if/else`), take the complexity of the 'worse' (more complex)
     branch
 
