@@ -172,7 +172,7 @@ Let's look at [this demo in javascript](index.html).
 
 ### You do: Study Big-O Families (20 min, 1:45)
 
-Take 15 minutes to read through this article, and 5 minutes to do the exercises. Review the answers at the end of article. Skip the section of amortized analysis.
+Take 15 minutes to read through this article, and 5 minutes to do the exercises. Review the answers at the end of article. Skip the section on amortized analysis. Call me over if you have any questions.
 
 The exercises will have you predict the complexity of a block of code. There are some rules of thumb earlier on in the article that will help you interpret what you are seeing. This will help you to become a `Sourceror`.
 
