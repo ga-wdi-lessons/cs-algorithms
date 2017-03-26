@@ -210,14 +210,13 @@ worst, ten guesses...
 
   <summary><strong>What is the complexity of this algorithm?</strong></summary>
 
-  > O(n)
+  > O(n), hence why it is called "linear search".
 
 </details>
 
 <br/>
 
-The algorithm that gets you there in four guesses is called "binary search". It
-goes like this...
+The algorithm that gets you there in four guesses is called "binary search". It is usually performed on an already-sorted list. It goes like this...
 
 > 1.  Divide the range in half. Ask: is the number in the middle <= your number?
 > 1.  If so, the answer is in the lower half-range
