@@ -51,7 +51,6 @@ and Andy has agreed to make it for me. The problem is, he doesn't know how.
 Assuming an otherwise-adult set of knowledge, how might we tell Andy to make me
 a sandwich?
 
-> 1.  Go to the 12th floor
 > 1.  Go to the kitchen
 > 1.  Find the bread, toaster, utensils, peanut butter, and jelly
 > 1.  Toast the bread
@@ -101,6 +100,8 @@ Bubble sort repeatedly steps through the list to be sorted, compares each pair
 of adjacent items and swaps them if they are in the wrong order. The pass
 through the list is repeated until no swaps are needed, which indicates that
 the list is sorted.
+
+> [Here's a fun bubble sort visualization.](https://www.youtube.com/watch?v=lyZQPjUT5B4)
 
 ### You Do: Research Quick Sort (5 minutes, 0:45)
 
@@ -213,6 +214,8 @@ worst, ten guesses...
 
 </details>
 
+<br/>
+
 The algorithm that gets you there in four guesses is called "binary search". It
 goes like this...
 
@@ -229,7 +232,7 @@ tree?
 
   <summary><strong>Why is this algorithm an example of "divide-and-conquer"?</strong></summary>
 
-  > NEEDS ANSWER.
+  > Because we are iterating recursively through multiple branches.
 
 </details>
 
