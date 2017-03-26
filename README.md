@@ -2,7 +2,7 @@
 
 # Concepts in Computer Science: Algorithms
 
-## Objectives
+## Learning Objectives
 
 By the end of this, developers should be able to...
 
@@ -13,9 +13,11 @@ By the end of this, developers should be able to...
 
 ## Computer Science (5 minutes, 0:05)
 
+> "Computer science is a discipline that involves the understanding and design of computers and computational processes. In its most general form it is concerned with the understanding of information transfer and transformation. Particular interest is placed on making processes efficient and endowing them with some form of intelligence. The discipline ranges from theoretical studies of algorithms to practical problems of implementation in terms of computational hardware and software..." ([Source](https://www.cs.mtu.edu/~john/whatiscs.html))
+
 How many of us find the concept or mention of computer science intimidating?
 
-Many think of computer science as a necessary prerequisite to do anything programming-related with a computer and *really know what you are doing*, or that knowing a certain amount of computer science is some kind of litmus test for *true programmers*. This attitude perhaps unnecessarily mystifies an already difficult subject and field of study, and at worst, makes the learning curve seem so steep that it is like a learning barrier.
+Many think of computer science as a necessary prerequisite to do anything programming-related with a computer and *really know what you are doing*, or that knowing a certain amount of computer science is some kind of litmus test for a *true programmer*. This attitude perhaps unnecessarily mystifies an already difficult subject and field of study and, at worst, makes the learning curve seem so steep that it is like a learning barrier.
 
 What do you already know about computer science?
 
@@ -93,7 +95,7 @@ up to you to consider the options and pick the one that best meets your needs.
 
 ### We Do: Bubble Sort (5 minutes, 0:40)
 
-Next, we'll visualize bubble sorting with 7 volunteers. One person will play the role of the recursive sorter.
+Next, we'll visualize bubble sorting with seven volunteers. One person will play the role of the recursive sorter.
 
 Bubble sort repeatedly steps through the list to be sorted, compares each pair
 of adjacent items and swaps them if they are in the wrong order. The pass
