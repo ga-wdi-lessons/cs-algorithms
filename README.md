@@ -63,7 +63,7 @@ a sandwich?
 If Andy needed to make sandwiches for all of us, how would he do that? What's
 the "easy" way to obtain many sandwiches? What is a more efficient way?
 
-### Think-Write-Pair: Outline an Algorithm (5 minutes, 0:20)
+### Think-Pair-Share: Outline an Algorithm (5 minutes, 0:20)
 
 Take 3 minutes to write down your day-initialization algorithm (i.e., your morning routine). Share it with a neighbor. How many steps are there? How do you or could you save time if you're in a rush?
 
@@ -91,7 +91,7 @@ choice. There is no one way to solve a problem. Different
 algorithms are better in different contexts, or with different constraints. It's
 up to you to consider the options and pick the one that best meets your needs.
 
-[Sorting Algorithms Visualized](https://www.toptal.com/developers/sorting-algorithms)
+> [Sorting Algorithms Visualized](https://www.toptal.com/developers/sorting-algorithms)
 
 ### We Do: Bubble Sort (5 minutes, 0:40)
 
@@ -115,7 +115,6 @@ Understanding quick sort can be tricky, so here is an excellent play by play:
 [Quicksort Play by Play](http://me.dt.in.th/page/Quicksort/). Spend 5 minutes going through this interactive.
 
 Now, we're going to have 8 people participating in the quick sort demonstration.
-
 
 ## Break (10 minutes, 1:10)
 
@@ -169,7 +168,9 @@ straight line, hence we say that the procedures ***scale linearly***.
 
 ![Graph of O-complexity](http://i.stack.imgur.com/WcBRI.png)
 
-Let's look at [this demo in javascript](index.html).
+Let's look at this demo in javascript...
+- Code: [JS](script.js), [HTML](index.html)
+- [Deployed](aboard-thought.surge.sh)
 
 ### You Do: Study Big-O Families (20 minutes, 1:45)
 
