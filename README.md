@@ -13,7 +13,11 @@ By the end of this, developers should be able to...
 
 ## Computer Science (5 minutes, 0:05)
 
-> "Computer science is a discipline that involves the understanding and design of computers and computational processes. In its most general form it is concerned with the understanding of information transfer and transformation. Particular interest is placed on making processes efficient and endowing them with some form of intelligence. The discipline ranges from theoretical studies of algorithms to practical problems of implementation in terms of computational hardware and software..." ([Source](https://www.cs.mtu.edu/~john/whatiscs.html))
+> "Computer science is a discipline that involves the understanding and design of computers and computational processes. In its most general form it is concerned with the understanding of information transfer and transformation. Particular interest is placed on making processes efficient and endowing them with some form of intelligence. The discipline ranges from theoretical studies of algorithms to practical problems of implementation in terms of computational hardware and software."
+>
+> "A central focus is on processes for handling and manipulating information. Thus, the discipline spans both advancing the fundamental understanding of algorithms and information processes in general as well as the practical design of efficient reliable software and hardware to meet given specifications."
+>
+> ([Source](https://www.cs.mtu.edu/~john/whatiscs.html))
 
 How many of us find the concept or mention of computer science intimidating?
 
@@ -25,7 +29,7 @@ Decades ago, it was absolutely necessary to have an understanding of computer sc
 
 Something similar is true for programming, namely that not knowing any computer science is no longer a barrier to entry.
 
-Computer science provides methods and concepts for evaluating what we are doing as programmers. At the very least, understanding some computer science can simply deepen our appreciation for our discipline and our craft. Not everyone who programs all of sudden thinks inherently, or has to think, like the stereotype of an engineer might think.
+**Computer science provides methods and concepts for evaluating what we are doing as programmers.** At the very least, understanding some computer science can simply deepen our appreciation for our discipline and our craft. Not everyone who programs all of sudden thinks inherently, or has to think, like the stereotype of an engineer might think.
 
 ## Why Are Algorithms Important? (5 minutes, 0:10)
 
