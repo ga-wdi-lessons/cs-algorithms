@@ -29,6 +29,8 @@ Decades ago, it was absolutely necessary to have an understanding of computer sc
 
 Something similar is true for programming, namely that not knowing any computer science is no longer a barrier to entry.
 
+------
+
 **Computer science provides methods and concepts for evaluating what we are doing as programmers.** At the very least, understanding some computer science can simply deepen our appreciation for our discipline and our craft. Not everyone who programs all of sudden thinks inherently, or has to think, like the stereotype of an engineer might think.
 
 What does computer science have to do with modern web development? Not much, on the surface. As application developers, we can do our job well by following best practices, guided by our experience. It probably will not be often that you are interested in the time-complexity of a method you write.
