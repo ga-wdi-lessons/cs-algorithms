@@ -105,19 +105,15 @@ of adjacent items and swaps them if they are in the wrong order. The pass
 through the list is repeated until no swaps are needed, which indicates that
 the list is sorted.
 
+Bubble sort is ideal for when your data is already close to being sorted, but not quite there yet. Bubble sort is **not ideal** when your data is in reverse order.
+
 > [Here's a fun bubble sort visualization.](https://www.youtube.com/watch?v=lyZQPjUT5B4)
 
-### You Do: Research Quick Sort (5 minutes, 0:45)
+### You Do: Research Quick Sort (10 minutes, 0:50)
 
-Work with a partner to read the
-[pseudocode](http://rosettacode.org/wiki/Sorting_algorithms/Quicksort)
-for quick sort. One of you will be asked to explain quick sort
-in your own words.
+Work with a partner to go through this [interactive example](http://me.dt.in.th/page/Quicksort/) of quick sort. One of you will be asked to explain quick sort in your own words.
 
-### We Do: Visualize Quick Sort (15 minutes, 1:00)
-
-Understanding quick sort can be tricky, so here is an excellent play by play:
-[Quicksort Play by Play](http://me.dt.in.th/page/Quicksort/). Spend 5 minutes going through this interactive.
+### We Do: Visualize Quick Sort (10 minutes, 1:00)
 
 Now, we're going to have 8 people participating in the quick sort demonstration.
 
@@ -176,6 +172,15 @@ straight line, hence we say that the procedures ***scale linearly***.
 Let's look at this demo in javascript...
 - Code: [JS](script.js), [HTML](index.html)
 - [Deployed](aboard-thought.surge.sh)
+
+<details>
+  <summary><strong>What do you think the worst-case time complexity of bubble and quick sort are?</strong></summary>
+
+  > Bubble Sort: O(n^2)
+  > Quick Sort: O(n * log(n))
+
+
+</details>
 
 ### You Do: Study Big-O Families (20 minutes, 1:45)
 
@@ -246,7 +251,7 @@ algorithm. Guessing and checking is OK! Work with a partner to try the algorithm
 out for numbers between one and ten, as well as numbers between one and
 one-hundred.
 
-### Groups of 3: Tower of Hanoi (20 minutes, 2:30)
+### Bonus: Tower of Hanoi (20 minutes, 2:30)
 
 Form groups of 3 and visit [this site](https://www.mathsisfun.com/games/towerofhanoi.html).
 
