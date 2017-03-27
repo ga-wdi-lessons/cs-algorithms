@@ -2,21 +2,26 @@
 
 # Concepts in Computer Science: Algorithms
 
+## Learning Objectives
 
-## Objectives
-
-By the end of this, developers should be able to:
+By the end of this, developers should be able to...
 
 -   Define "algorithm"
 -   Identify what Big-O time-complexity measures
 -   Give an example of a divide-and-conquer algorithm
 -   Predict the time-complexity of a given algorithm
 
-## Computer Science (0:05, 5 min)
+## Computer Science (10 minutes, 0:10)
+
+> "Computer science is a discipline that involves the understanding and design of computers and computational processes. In its most general form it is concerned with the understanding of information transfer and transformation. Particular interest is placed on making processes efficient and endowing them with some form of intelligence. The discipline ranges from theoretical studies of algorithms to practical problems of implementation in terms of computational hardware and software."
+>
+> "A central focus is on processes for handling and manipulating information. Thus, the discipline spans both advancing the fundamental understanding of algorithms and information processes in general as well as the practical design of efficient reliable software and hardware to meet given specifications."
+>
+> ([Source](https://www.cs.mtu.edu/~john/whatiscs.html))
 
 How many of us find the concept or mention of computer science intimidating?
 
-Many think of  computer science as a necessary prerequisite to do anything programming-related with a computer and *really know what you are doing*, or that knowing a certain amount of computer science is some kind of litmus test for *true programmers*. This attitude perhaps unnecessarily mystifies an already difficult subject and field of study, and at worst, makes the learning curve seem so steep that it is like a learning barrier.
+Many think of computer science as a necessary prerequisite to do anything programming-related with a computer and *really know what you are doing*, or that knowing a certain amount of computer science is some kind of litmus test for a *true programmer*. This attitude perhaps unnecessarily mystifies an already difficult subject and field of study and, at worst, makes the learning curve seem so steep that it is like a learning barrier.
 
 What do you already know about computer science?
 
@@ -24,9 +29,9 @@ Decades ago, it was absolutely necessary to have an understanding of computer sc
 
 Something similar is true for programming, namely that not knowing any computer science is no longer a barrier to entry.
 
-Computer science provides methods and concepts for evaluating what we are doing as programmers. At the very least, understanding some computer science can simply deepen our appreciation for our discipline and our craft. Not everyone who programs all of sudden thinks inherently, or has to think, like the stereotype of an engineer might think.
+### How Can We Use Computer Science?
 
-## Why are algorithms important? (0:10, 5 min)
+**Computer science provides methods and concepts for evaluating what we are doing as programmers.** At the very least, understanding some computer science can simply deepen our appreciation for our discipline and our craft. Not everyone who programs all of sudden thinks inherently, or has to think, like the stereotype of an engineer might think.
 
 What does computer science have to do with modern web development? Not much, on the surface. As application developers, we can do our job well by following best practices, guided by our experience. It probably will not be often that you are interested in the time-complexity of a method you write.
 
@@ -35,12 +40,12 @@ Complexity and data structures are something **engineers** worry about, not deve
 Well, no. While it is true that we don't usually care much about optimization,
 there are a few reasons why developers should care a bit about classic topics in
 introductory computer science (CS).
+
 1. Classic problems allow us to practice our problem solving skills; in fact, most of our lesson today can be completed without coding.
 2.  Being familiar with the tradeoffs inherent in choosing an algorithm or a data structure have direct parallels in choices you make writing your application code.
 3. Some of our colleagues will have CS degrees, and being able to understand the jargon and figures of speech they use helps us communicate with them. Perhaps most importantly, these colleagues will probably have some say in hiring you, since they're your prospective team. Nearly every technical interview touches on these topics.
 
-
-### What is an Algorithm? (5 min, 0:15)
+## Algorithms (5 minutes, 0:15)
 
 > algorithm (n.) - a process or set of rules to be followed to attain a goal
 
@@ -50,7 +55,6 @@ and Andy has agreed to make it for me. The problem is, he doesn't know how.
 Assuming an otherwise-adult set of knowledge, how might we tell Andy to make me
 a sandwich?
 
-> 1.  Go to the 12th floor
 > 1.  Go to the kitchen
 > 1.  Find the bread, toaster, utensils, peanut butter, and jelly
 > 1.  Toast the bread
@@ -60,24 +64,24 @@ a sandwich?
 > 1.  Return to me with the sandwich (most important step)
 
 If Andy needed to make sandwiches for all of us, how would he do that? What's
-the "easy" or naïve way to obtain many sandwiches? What is a more efficient way?
+the "easy" way to obtain many sandwiches? What is a more efficient way?
 
-### Think-Write-Pair: Outline an Algorithm (5 min, 0:20)
+### Think-Pair-Share: Outline an Algorithm (5 minutes, 0:20)
 
-Take 3 minutes to write down your day-initialization algorithm... aka, your morning routine. Share it with a neighbor. How many steps are there? How do you or could you save time if you're in a rush?
+Take 3 minutes to write down your day-initialization algorithm (i.e., your morning routine). Share it with a neighbor. How many steps are there? How do you or could you save time if you're in a rush?
 
-### Think-Pair-Share: Sorting Cards (10 min, 0:30)
+### Think-Pair-Share: Sorting Cards (10 minutes, 0:30)
 
 [You have a deck of unsorted playing cards](https://deck-of-cards.js.org/).
 Describe in English an algorithm for sorting them. How would this algorithm
-change if my goal were not only to sort the deck, but to kill time while doing
+change if your goal were not only to sort the deck, but to kill time while doing
 it?
 
-## Sorting (5 min, 0:35)
+## Sorting (5 minutes, 0:35)
 
 A well-known problem in computer science is sorting an array. There are many
-strategies (read: algorithms) for accomplishing this. Here is an abbreviated
-list:
+algorithms for accomplishing this. Here is an abbreviated
+list...
 
 -   Bubble sort
 -   Quick sort
@@ -86,51 +90,48 @@ list:
 -   Selection sort
 
 This illustrates something important about algorithms: you nearly always have a
-choice. There is no "one way" to solve a problem, no "right" way. Different
+choice. There is no one way to solve a problem. Different
 algorithms are better in different contexts, or with different constraints. It's
 up to you to consider the options and pick the one that best meets your needs.
 
-[Sorting Algorithms Visualized](https://www.toptal.com/developers/sorting-algorithms)
+> [Sorting Algorithms Visualized](https://www.toptal.com/developers/sorting-algorithms)
 
-### We do: Bubble Sort (5 min, 0:40)
+### We Do: Bubble Sort (5 minutes, 0:40)
 
-Next, we'll visualize bubble sorting with 7 volunteers. One person will play the role of recursive sorter.
+Next, we'll visualize bubble sorting with seven volunteers. One person will play the role of the recursive sorter.
 
 Bubble sort repeatedly steps through the list to be sorted, compares each pair
 of adjacent items and swaps them if they are in the wrong order. The pass
 through the list is repeated until no swaps are needed, which indicates that
 the list is sorted.
 
-### You do: Research Quick Sort (5 min, 0:45)
+Bubble sort is ideal for when your data is already close to being sorted, but not quite there yet. Bubble sort is **not ideal** when your data is in reverse order.
 
-Work with a partner to read the
-[pseudocode](http://rosettacode.org/wiki/Sorting_algorithms/Quicksort)
-for quick sort. One of you will be asked to explain quick sort
-in your own words.
+> [Here's a fun bubble sort visualization.](https://www.youtube.com/watch?v=lyZQPjUT5B4)
 
-### We do: Visualize quick sort (15 min, 1:00)
+### You Do: Research Quick Sort (10 minutes, 0:50)
 
-Understanding quick sort can be tricky, so here is an excellent play by play:
-[Quicksort Play by Play](http://me.dt.in.th/page/Quicksort/). Spend 5 minutes going through this interactive.
+Work with a partner to go through this [interactive example](http://me.dt.in.th/page/Quicksort/) of quick sort. One of you will be asked to explain quick sort in your own words.
+
+### We Do: Visualize Quick Sort (10 minutes, 1:00)
 
 Now, we're going to have 8 people participating in the quick sort demonstration.
 
+## Break (10 minutes, 1:10)
 
-## Break (10 min, 1:10)
-
-## Big-O Notation (15 min, 1:20)
+## Big-O Notation (15 minutes, 1:20)
 
 Big-O notation is simply a way of comparing the efficiency of algorithms. When we compare algorithms, we get the most meaningful comparisons when we compare "apples to apples": we wouldn't compare a sorting algorithm to an algorithm for summing the terms of an array. Comparisons become meaningful when we are comparing algorithms with respect to a given problem.
 
-It's not an exact metric for benchmarking algorithms, but rather giving us an abstract idea about how costly or efficient an algorithm is, with respect to how much computing power it takes. With Big-O notation, we are comparing orders of magnitude, somewhat like with the Richter scale or pH scale.
+Big-O notation is not an exact metric for benchmarking algorithms. Rather, it gives us an abstract idea about how costly or efficient an algorithm is, with respect to how much computing power it takes. With Big-O notation, we are comparing orders of magnitude.
 
-We use "Big-O" notation to describe an algorithm's complexity. Algorithmic complexity
-is measured by how much time and memory scale are used in processing input (represented by ***n***) of arbitrary size. We will focus on time-complexity rather than space-complexity (memory usage).
+We use Big-O notation to describe an algorithm's complexity. Algorithmic complexity
+is measured by how much time and memory scale are used in processing input (represented by ***n***) of arbitrary size. We will focus on time-complexity rather than space-complexity (i.e., memory usage).
 
 Take a simple algorithm for demonstration purposes: printing an element of an
 array to the screen.
 
-```ruby
+```rb
 [1, 2, 3].each do |n|
   puts n
 end
@@ -145,7 +146,7 @@ time-to-complete grows in lock-step with the number of inputs, denoted
 
 To identify an algorithm's complexity, we focus on the "family" of scaling
 functions the algorithm belongs to. We don't care about exact values. For
-example:
+example...
 
 ```ruby
 [1, 2, 3].each do |n|
@@ -168,36 +169,44 @@ straight line, hence we say that the procedures ***scale linearly***.
 
 ![Graph of O-complexity](http://i.stack.imgur.com/WcBRI.png)
 
-Let's look at [this demo in javascript](index.html).
+Let's look at this demo in javascript...
+- Code: [JS](script.js), [HTML](index.html)
+- [Deployed](aboard-thought.surge.sh)
 
-### You do: Study Big-O Families (20 min, 1:45)
+<details>
+  <summary><strong>What do you think the worst-case time complexity of bubble and quick sort are?</strong></summary>
 
-Take 15 minutes to read through this article, and 5 minutes to do the exercises. Review the answers at the end of article. Skip the section on amortized analysis. Call me over if you have any questions.
+  > Bubble Sort: O(n^2)
+  > Quick Sort: O(n * log(n))
+
+
+</details>
+
+### You Do: Study Big-O Families (20 minutes, 1:45)
+
+Take 15 minutes to read through [this article](http://www.daveperrett.com/articles/2010/12/07/comp-sci-101-big-o-notation/), and 5 minutes to do the exercises. Review the answers at the end of article. Skip the section on "amortized analysis". Call the instructor over if you have any questions.
 
 The exercises will have you predict the complexity of a block of code. There are some rules of thumb earlier on in the article that will help you interpret what you are seeing. This will help you to become a `Sourceror`.
 
-Study the [Big-O table](http://www.daveperrett.com/articles/2010/12/07/comp-sci-101-big-o-notation/)
-to become familiar with these scaling functions, and try the exercises at the end.
-
 If you like graphs, check out this [running time graph](http://science.slc.edu/~jmarshall/courses/2002/spring/cs50/BigO/).
 
-## Break (10 min, 1:55)
+## Break (10 minutes, 1:55)
 
-## Predicting Complexity (5 min, 2:00)
+## Predicting Complexity (5 minutes, 2:00)
 
 How can you predict the complexity of a given algorithm? We can look for certain
 features to help us characterize it.
 
 -   Loops take linear time to complete (`O(n)`)
--   Nested loops take quadratic time to complete (`O(n^2)`), or worse, cubic
-    time (`O(n^3)`)
+-   Nested loops take quadratic time to complete (<code>O(n<sup>2</sup>)</code>), or worse, cubic
+    time (<code>O(n<sup>3</sup>)</code>)
 -   For branching statements (`if/else`), take the complexity of the 'worse' (more complex)
     branch
 
 Here's a "party" trick that is sure to make you popular. Bet someone you can state
 with certainty a number they've chosen, between one and ten, after four
 guesses. Before I show you how, let's look at a naïve solution that takes, at
-worst, ten guesses:
+worst, ten guesses...
 
 ```md
 1.  Guess "1". If no,
@@ -206,11 +215,17 @@ worst, ten guesses:
 ...
 10.  Guess "10". You win!
 ```
+<details>
 
-**Question:** What is the complexity of this algorithm?
+  <summary><strong>What is the complexity of this algorithm?</strong></summary>
 
-The algorithm that gets you there in four guesses is called "binary search". It
-goes like this:
+  > O(n), hence why it is called "linear search".
+
+</details>
+
+<br/>
+
+The algorithm that gets you there in four guesses is called "binary search". It is usually performed on an already-sorted list. It goes like this...
 
 > 1.  Divide the range in half. Ask: is the number in the middle <= your number?
 > 1.  If so, the answer is in the lower half-range
@@ -221,21 +236,26 @@ goes like this:
 It's easiest to see in a tree diagram. Can you see the binary structure of the
 tree?
 
-**Question:** Explain why this algorithm is an example of divide-and-conquer in
-your own words.
+<details>
 
-### Think-Pair: Divide-and-Conquer Complexity (10 min, 2:10)
+  <summary><strong>Why is this algorithm an example of "divide-and-conquer"?</strong></summary>
+
+  > Because we are iterating recursively through multiple branches.
+
+</details>
+
+### Think-Pair-Share: Divide-and-Conquer Complexity (10 minutes, 2:10)
 
 Determine the time-complexity of the divide-and-conquer number guessing
 algorithm. Guessing and checking is OK! Work with a partner to try the algorithm
 out for numbers between one and ten, as well as numbers between one and
 one-hundred.
 
-### Groups of 3: Tower of Hanoi (20 min, 2:30)
+### Bonus: Tower of Hanoi (20 minutes, 2:30)
 
-Form groups of 3 and visit https://www.mathsisfun.com/games/towerofhanoi.html
+Form groups of three and visit [this site](https://www.mathsisfun.com/games/towerofhanoi.html).
 
-Create an algorithm in english for solving the problem. And think about the following questions:
+Create an algorithm in english for solving the problem: given `n` disks, what is the minimum number moves it takes to solve the puzzle. While doing so, think about the following questions...
 
 1. What is the complexity of your algorithm?
 1. What is the smallest number of moves required to solve the problem with 3 disks?
