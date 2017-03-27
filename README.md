@@ -244,7 +244,7 @@ tree?
 
 </details>
 
-### Think-Pair: Divide-and-Conquer Complexity (10 minutes, 2:10)
+### Think-Pair-Share: Divide-and-Conquer Complexity (10 minutes, 2:10)
 
 Determine the time-complexity of the divide-and-conquer number guessing
 algorithm. Guessing and checking is OK! Work with a partner to try the algorithm
