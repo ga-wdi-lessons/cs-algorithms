@@ -253,9 +253,9 @@ one-hundred.
 
 ### Bonus: Tower of Hanoi (20 minutes, 2:30)
 
-Form groups of 3 and visit [this site](https://www.mathsisfun.com/games/towerofhanoi.html).
+Form groups of three and visit [this site](https://www.mathsisfun.com/games/towerofhanoi.html).
 
-Create an algorithm in english for solving the problem. And think about the following questions...
+Create an algorithm in english for solving the problem: given `n` disks, what is the minimum number moves it takes to solve the puzzle. While doing so, think about the following questions...
 
 1. What is the complexity of your algorithm?
 1. What is the smallest number of moves required to solve the problem with 3 disks?
