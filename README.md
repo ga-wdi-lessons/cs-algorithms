@@ -11,7 +11,7 @@ By the end of this, developers should be able to...
 -   Give an example of a divide-and-conquer algorithm
 -   Predict the time-complexity of a given algorithm
 
-## Computer Science (5 minutes, 0:05)
+## Computer Science (10 minutes, 0:10)
 
 > "Computer science is a discipline that involves the understanding and design of computers and computational processes. In its most general form it is concerned with the understanding of information transfer and transformation. Particular interest is placed on making processes efficient and endowing them with some form of intelligence. The discipline ranges from theoretical studies of algorithms to practical problems of implementation in terms of computational hardware and software."
 >
@@ -31,8 +31,6 @@ Something similar is true for programming, namely that not knowing any computer 
 
 **Computer science provides methods and concepts for evaluating what we are doing as programmers.** At the very least, understanding some computer science can simply deepen our appreciation for our discipline and our craft. Not everyone who programs all of sudden thinks inherently, or has to think, like the stereotype of an engineer might think.
 
-## Why Are Algorithms Important? (5 minutes, 0:10)
-
 What does computer science have to do with modern web development? Not much, on the surface. As application developers, we can do our job well by following best practices, guided by our experience. It probably will not be often that you are interested in the time-complexity of a method you write.
 
 Complexity and data structures are something **engineers** worry about, not developers, right?
@@ -45,7 +43,7 @@ introductory computer science (CS).
 2.  Being familiar with the tradeoffs inherent in choosing an algorithm or a data structure have direct parallels in choices you make writing your application code.
 3. Some of our colleagues will have CS degrees, and being able to understand the jargon and figures of speech they use helps us communicate with them. Perhaps most importantly, these colleagues will probably have some say in hiring you, since they're your prospective team. Nearly every technical interview touches on these topics.
 
-### What Is an Algorithm? (5 minutes, 0:15)
+## Algorithms (5 minutes, 0:15)
 
 > algorithm (n.) - a process or set of rules to be followed to attain a goal
 
