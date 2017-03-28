@@ -43,7 +43,7 @@ function fourNested(){
 }
 //a way to measure time and execute the function
 function measureTime(func){
-  var startFunc = console.time( func.name );
+  console.time( func.name );
   func();
-  var endFunc = console.timeEnd( func.name );
+  console.timeEnd( func.name );
 }
