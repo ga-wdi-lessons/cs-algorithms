@@ -143,8 +143,11 @@ Take a simple algorithm for demonstration purposes: printing an element of an
 array to the screen.
 
 ```rb
-[1, 2, 3].each do |n|
-  puts n
+def loop
+  puts "time to loop!"
+  [1, 2, 3].each do |n|
+    puts n
+  end
 end
 ```
 
@@ -156,13 +159,14 @@ time-to-complete grows in lock-step with the number of inputs, denoted
 `O(n)` and pronounced "O of n" or simply "linear".
 
 To identify an algorithm's complexity, we focus on the "family" of scaling
-functions the algorithm belongs to. We don't care about exact values. For
-example...
+functions the algorithm belongs to. We don't care about exact values.
 
 ```ruby
-[1, 2, 3].each do |n|
-  puts "hello!"
-  puts n
+def loop
+  [1, 2, 3].each do |n|
+    puts "hello!"
+    puts n
+  end
 end
 ```
 
@@ -184,93 +188,23 @@ Let's look at this demo in javascript...
 - Code: [JS](script.js), [HTML](index.html)
 - [Deployed](aboard-thought.surge.sh)
 
-<details>
-  <summary><strong>What do you think the worst-case time complexity of bubble and quick sort are?</strong></summary>
+### You Do: Study Big-O Families (30 minutes, 1:50)
 
-  > Bubble Sort: O(n^2)
-  > Quick Sort: O(n * log(n))
+Take 15 minutes to read through [this article](http://www.daveperrett.com/articles/2010/12/07/comp-sci-101-big-o-notation/). Stop before the section on "Amortized Analysis".
 
+Once you're done reading, [complete this exercise](https://gist.github.com/amaseda/c4283f5c58b9b68be9318259098f0298). In it, you will need to assess the worst-case scenario time complexity for a number of algorithms. There are some rules of thumb [in the reading](http://www.daveperrett.com/articles/2010/12/07/comp-sci-101-big-o-notation/) that will help you interpret what you are seeing.
 
-</details>
+> If you like graphs, check out this [running time graph](http://science.slc.edu/~jmarshall/courses/2002/spring/cs50/BigO/).
 
-### You Do: Study Big-O Families (20 minutes, 1:45)
-
-Take 15 minutes to read through [this article](http://www.daveperrett.com/articles/2010/12/07/comp-sci-101-big-o-notation/), and 5 minutes to do the exercises. Review the answers at the end of article. Skip the section on "amortized analysis". Call the instructor over if you have any questions.
-
-The exercises will have you predict the complexity of a block of code. There are some rules of thumb earlier on in the article that will help you interpret what you are seeing. This will help you to become a `Sourceror`.
-
-If you like graphs, check out this [running time graph](http://science.slc.edu/~jmarshall/courses/2002/spring/cs50/BigO/).
-
-## Break (10 minutes, 1:55)
-
-## Predicting Complexity (5 minutes, 2:00)
-
-How can you predict the complexity of a given algorithm? We can look for certain
-features to help us characterize it.
-
--   Loops take linear time to complete (`O(n)`)
--   Nested loops take quadratic time to complete (<code>O(n<sup>2</sup>)</code>), or worse, cubic
-    time (<code>O(n<sup>3</sup>)</code>)
--   For branching statements (`if/else`), take the complexity of the 'worse' (more complex)
-    branch
-
-Here's a "party" trick that is sure to make you popular. Bet someone you can state
-with certainty a number they've chosen, between one and ten, after four
-guesses. Before I show you how, let's look at a naïve solution that takes, at
-worst, ten guesses...
-
-```md
-1.  Guess "1". If no,
-2.  Guess "2". If no,
-3.  Guess "3". If no,
-...
-10.  Guess "10". You win!
-```
-<details>
-
-  <summary><strong>What is the complexity of this algorithm?</strong></summary>
-
-  > O(n), hence why it is called "linear search".
-
-</details>
-
-<br/>
-
-The algorithm that gets you there in four guesses is called "binary search". It is usually performed on an already-sorted list. It goes like this...
-
-> 1.  Divide the range in half. Ask: is the number in the middle <= your number?
-> 1.  If so, the answer is in the lower half-range
-> 1.  If not, the answer is in the upper half-range
-> 1.  Divide the upper or lower half-range in half, and guess the middle. Repeat
->     until done.
-
-It's easiest to see in a tree diagram. Can you see the binary structure of the
-tree?
-
-<details>
-
-  <summary><strong>Why is this algorithm an example of "divide-and-conquer"?</strong></summary>
-
-  > Because we are iterating recursively through multiple branches.
-
-</details>
-
-### Think-Pair-Share: Divide-and-Conquer Complexity (10 minutes, 2:10)
-
-Determine the time-complexity of the divide-and-conquer number guessing
-algorithm. Guessing and checking is OK! Work with a partner to try the algorithm
-out for numbers between one and ten, as well as numbers between one and
-one-hundred.
-
-### Bonus: Tower of Hanoi (20 minutes, 2:30)
+### Bonus: Tower of Hanoi
 
 Form groups of three and visit [this site](https://www.mathsisfun.com/games/towerofhanoi.html).
 
-Create an algorithm in english for solving the problem: given `n` disks, what is the minimum number moves it takes to solve the puzzle. While doing so, think about the following questions...
+Create an algorithm in english for solving the problem: given `n` disks, what is the number of moves it takes to solve the puzzle. While doing so, think about the following questions...
 
-1. What is the complexity of your algorithm?
 1. What is the smallest number of moves required to solve the problem with 3 disks?
 1. And with 4 disks?
+1. What is the complexity of your algorithm?
 1. Can you think of a way to compute the minimum number of moves given n disks?
 
 ## Additional Resources
