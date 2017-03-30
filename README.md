@@ -192,7 +192,7 @@ Let's look at this demo in javascript...
 
 Take 15 minutes to read through [this article](http://www.daveperrett.com/articles/2010/12/07/comp-sci-101-big-o-notation/). Stop before the section on "Amortized Analysis".
 
-Once you're done reading, [complete this exercise](https://gist.github.com/amaseda/c4283f5c58b9b68be9318259098f0298). In it, you will need to assess the worst-case scenario time complexity for a number of algorithms. There are some rules of thumb [in the reading](http://www.daveperrett.com/articles/2010/12/07/comp-sci-101-big-o-notation/) that will help you interpret what you are seeing.
+Once you're done reading, [complete these exercises](https://gist.github.com/amaseda/c4283f5c58b9b68be9318259098f0298). In it, you will need to assess the worst-case scenario time complexity for a number of algorithms. There are some rules of thumb [in the reading](http://www.daveperrett.com/articles/2010/12/07/comp-sci-101-big-o-notation/) that will help you interpret what you are seeing.
 
 > If you like graphs, check out this [running time graph](http://science.slc.edu/~jmarshall/courses/2002/spring/cs50/BigO/).
 
