@@ -186,7 +186,7 @@ straight line, hence we say that the procedures ***scale linearly***.
 
 Let's look at this demo in javascript...
 - Code: [JS](script.js), [HTML](index.html)
-- [Deployed](aboard-thought.surge.sh)
+- [Deployed](http://aboard-thought.surge.sh)
 
 ### You Do: Study Big-O Families (30 minutes, 1:50)
 
