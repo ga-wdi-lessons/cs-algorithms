@@ -15,11 +15,18 @@ By the end of this, developers should be able to...
 
 > "Computer science is a discipline that involves the understanding and design of computers and computational processes. In its most general form it is concerned with the understanding of information transfer and transformation. Particular interest is placed on making processes efficient and endowing them with some form of intelligence. The discipline ranges from theoretical studies of algorithms to practical problems of implementation in terms of computational hardware and software."
 >
-> "A central focus is on processes for handling and manipulating information. Thus, the discipline spans both advancing the fundamental understanding of algorithms and information processes in general as well as the practical design of efficient reliable software and hardware to meet given specifications."
->
 > ([Source](https://www.cs.mtu.edu/~john/whatiscs.html))
 
-How many of us find the concept or mention of computer science intimidating?
+Computer Science fields include but are not limited to...
+- Algorithms
+- Data structures
+- Mathematical logic
+- Networking
+- Computer Architecture
+- Theory (Coding, Game, Graph)
+- Artificial intelligence
+
+> [This Wikipedia article](https://en.wikipedia.org/wiki/Outline_of_computer_science#Subfields) has a nice summary of CS subfields.
 
 Many think of computer science as a necessary prerequisite to do anything programming-related with a computer and *really know what you are doing*, or that knowing a certain amount of computer science is some kind of litmus test for a *true programmer*. This attitude perhaps unnecessarily mystifies an already difficult subject and field of study and, at worst, makes the learning curve seem so steep that it is like a learning barrier.
 
@@ -128,6 +135,10 @@ Big-O notation is not an exact metric for benchmarking algorithms. Rather, it gi
 We use Big-O notation to describe an algorithm's complexity. Algorithmic complexity
 is measured by how much time and memory scale are used in processing input (represented by ***n***) of arbitrary size. We will focus on time-complexity rather than space-complexity (i.e., memory usage).
 
+When dealing with time complexity, Big-O notation is an abstract metric for **how quickly the runtime of an algorithm grows relative to the input**.
+
+![Graph of O-complexity](http://i.stack.imgur.com/WcBRI.png)
+
 Take a simple algorithm for demonstration purposes: printing an element of an
 array to the screen.
 
@@ -167,7 +178,7 @@ we care about the shape of the scaling function for an algorithm. Each family of
 In both of the previous examples, graphing input (`n`) against completion time yields a
 straight line, hence we say that the procedures ***scale linearly***.
 
-![Graph of O-complexity](http://i.stack.imgur.com/WcBRI.png)
+**How would we plot these families on the earlier graph?**
 
 Let's look at this demo in javascript...
 - Code: [JS](script.js), [HTML](index.html)
